@@ -1,0 +1,19 @@
+{
+    "name": "node",
+    "version": "1.0.0",
+    "description": "Start NG",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index",
+        "dev": "nodemon index"
+    },
+    "author": "Qozeem Odeniran",
+    "license": "ISC",
+    "dependencies": {
+        "mongodb": "^3.5.5",
+        "uuid": "^7.0.2"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.2"
+    }
+}
